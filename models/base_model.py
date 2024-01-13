@@ -43,8 +43,8 @@ class BaseModel:
 
     def to_dict(self):
         """ Return a dictonary """
-        aux_dict = self.__dict__.copy()
-        aux_dict['__class__'] = self.__class__.__name__
-        aux_dict['created_at'] = self.created_at.isoformat()
-        aux_dict['updated_at'] = self.updated_at.isoformat()
-        return aux_dict
+        aux_diction = self.__dict__.copy()
+        aux_diction['__class__'] = self.__class__.__name__
+        aux_diction['created_at'] = self.created_at.isoformat()
+        aux_diction['updated_at'] = self.updated_at.isoformat()
+        return aux_diction

@@ -6,7 +6,6 @@ from models.city import City
 
 class City_tested(unittest.TestCase):
     """ check BaseModel """
-
     def testpep8(self):
         """ testing codestyle """
         pe_pstylecode = pep8.StyleGuide(quiet=True)

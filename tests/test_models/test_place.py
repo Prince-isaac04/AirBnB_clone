@@ -1,5 +1,7 @@
-!/usr/bin/python3
-""" testing Place """
+#!/usr/bin/python3
+"""
+testing Place
+"""
 import unittest
 import pep8
 from models.place import Place

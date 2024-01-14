@@ -1,16 +1,18 @@
 #!/usr/bin/python3
-""" Review Model Module
-It Inherits from BaseModel
+"""This is the Review Model module.
+Contains the Review class that inherits from BaseModel.
 """
 from models.base_model import BaseModel
 
 
-class review(BaseModel):
-    """ This class will describe the review
+class Review(BaseModel):
+    """This class defines a Review.
+    Attributes:
         place_id (str): the review's place id.
         user_id (str): the review's issuer user id.
         text (str): the review.
-"""
-place_id = ""
-user_id = ""
-text = ""
+    """
+
+    place_id = ""
+    user_id = ""
+    text = ""
